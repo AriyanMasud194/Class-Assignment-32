@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first_menu{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background: #fff;
+    border: 1px dashed #000;
+    
+}
+.first_menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+   
+}
+.first_menu ul li{
+    background: red;
+   
+    border-left: 1px solid green;
+    text-align: center;
+}
+.first_menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.first_menu2{
+    margin: auto;
+    background: #fff;
+    border: 1px solid #000;
+    width: 800px;
+    height: 300px;
+}
+.first_menu2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 800px;
+    height: 300px;
+}
+.first_menu2 ul li{
+    background: red;
+   
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.first_menu2 ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.first_menu3 {
+	margin: auto;
+	background: #fff;
+	border: 1px solid #000;
+	width: 400px;
+	height: 300px;
+}
+.first_menu3 ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  
+
+}
+.first_menu3 ul li{
+   background: red;
+   border: 1px solid blue;
+}
+
+.first_menu3 ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+   
+}
+.orders {
+	align-self: flex-end;
+}
+.orders2{
+	align-self: center;
+}
+
+.first_menu4 ul{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border: 1px dashed #000;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+}
+.first_menu4 ul li {
+	background: red;
+	border: 1px solid green;
+	flex-grow: 1;
+}
+
+.first_menu4 ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+   
+}
+
+.first_menu5 ul {
+	width: 900px;
+	height: 400px;
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	border: 1px dashed #000;
+	align-items: stretch;
+	padding: 0;
+	margin: 0;
+	margin: auto;
+}
+.first_menu5 ul li{
+    background: red;
+    border: 1px solid #fff;
+   
+    order: 5;
+
+ }
+
+.first_menu5 ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding-left:0 ;
+}
+
+
